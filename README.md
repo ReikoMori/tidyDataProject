@@ -81,5 +81,5 @@ options(dplyr.width = Inf)
 This *tidyData* dataframe was then saved using *write.table* to a csv using the following options:
 
 ~~~
-write.table(tidyData,file="tidyData.csv",sep=",",row.name=FALSE)
+write.table(tidyData,file="tidyData.txt",sep=",",row.name=FALSE)
 ~~~
