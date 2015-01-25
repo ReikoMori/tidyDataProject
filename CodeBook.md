@@ -8,9 +8,9 @@ output: word_document
 *  *  *  *
 
 ## Contents
-+ ### The Data
-+ ### Data Transformation and Clean Up
-+ ### Data Dictionary
++ **The Data**
++ **Data Transformation and Clean Up**
++ **Data Dictionary**
 
 *  *  *  *
 
