@@ -86,4 +86,4 @@ options(dplyr.width = Inf)
 #Group the dataset by Activity then Subject and use summerise_each to write the averages to tidyData 
 tidyData  <-summarise_each(group_by(MeanStdData,Activity,SubjectID),funs(mean))
 
-write.table(tidyData,file="tidyData.csv",sep=",",row.name=FALSE)
+write.table(tidyData,file="tidyData.txt",sep=",",row.name=FALSE)
